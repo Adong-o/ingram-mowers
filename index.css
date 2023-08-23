@@ -1,7 +1,36 @@
-body {{
-    background-color:green;
+body {
+    background-color:greenyellow;
 }
 
-h1 { color:darkgoldenrod;
+header { font-family:Arial, Helvetica, sans-serif;
 }
+/* styling some tabs*/
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: blueviolet;
 }
+
+/* style tab buttons*/
+.tab button {
+background-color inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
+}
+
+/* change buttons on hover*/
+
+.tab button:hover {
+background-color: aquamarine;
+}
+
+.tab button.active {
+    background-color: crimson;
+}
+
+
