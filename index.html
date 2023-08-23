@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="index.css">
+    
 </head>
 
 <img src="https://github.com/Daucro/ingram-mowers/blob/Photos/Luxury-house-with-beautiful-lawn.jpg?raw=true" alt=" beatifully done lawn" 
 style="width:500px">
 
-<header> <h1> </h1></header>
+<header> <h1></h1></header>
 <head> <title> Ingram Mowing</title>
     <header> We are <i><strong>Ingram Mowers!</strong></i></header>
 </head>
 
-
-
 <!-- Tabs for navigating website-->
 <div class="tab">
-    <button class="tablinks" onclick="openInfo(tab, 'Home')">Home</button>
-    <button class="tablinks" onclick="openInfo(tab, 'Testimonials')">Testimonials</button>
-    <button class="tablinks" onclick="openInfo(tab, 'About-Us')">About Us</button>
-    <button class="tablinks" onclick="openInfo(tab, 'Pricing')">Pricing</button>
+    <button class="tablinks" onclick="openInfo(event, 'Home')">Home</button>
+    <button class="tablinks" onclick="openInfo(event, 'Testimonials')">Testimonials</button>
+    <button class="tablinks" onclick="openInfo(event, 'About-Us')">About Us</button>
+    <button class="tablinks" onclick="openInfo(event, 'Pricing')">Pricing</button>
 </div>
 <!--Tab contents-->
 </div>
+
+<div id="Testimonials" class="tabcontent">
+ <h2> Hear from Real Clients about our work</h2>
+  </div>
+
+  <div id="About-Us" class="tabcontent">
+      <h3> Who is Ingram Mowers?</h3>
+  </div>
+  <div id="Pricing" class="tabcontent">
+      <h3> Pricing guide:</h3>
+  </div>
+  
 <body> 
     <main>
         <!-- Non number list of services-->
@@ -47,21 +58,9 @@ style="width:500px">
             <input type="submit" value="Submit">
         </form>
        </section>
-       </div>
+       
 
     </main>
+    <script src="index.js"></script>
 </body>
 <!-- Tab content saved for later in JS
-       <div id="Testimonials" class="tabcontent">
-       <h2> Hear from Real Clients about our work</h2>
-        </div>
-
-        <div id="About-Us" class="tabcontent">
-            <h3> Who is Ingram Mowers?</h3>
-        </div>
-
-        <div id="Pricing" class="tabcontent">
-            <h3> Pricing guide:</h3>
-        </div>
-        
-    </div> -->
