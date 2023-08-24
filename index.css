@@ -45,3 +45,14 @@ header {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+/* flex box styling*/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.div {
+  word-wrap: break-word;
+}
