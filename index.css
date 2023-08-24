@@ -38,7 +38,6 @@ body {
   background-color: orange;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 /* style tab buttons*/
 .tab button {
   background-color: inherit;
@@ -64,12 +63,9 @@ th {
 }
 /* change buttons on hover*/
 .tab button:hover {
-  background-color: #ddd;
+  background-color: yellow;
 }
-.tab button.active {
-  background-color: red;
-  color: red;
-}
+
 .tab content {
   display: none;
   padding: 6px 12px;
@@ -86,10 +82,7 @@ th {
   background-color: yellow;
   row-gap: 15px;
 }
-.flex-banner {
-  display: inline-block;
-  flex-direction: row;
-}
+
 .div {
   word-wrap: break-word;
 }
@@ -102,4 +95,5 @@ th {
 .fieldset {
   background-color: yellow;
   display: inline-block;
+  border-radius: 10px;
 }

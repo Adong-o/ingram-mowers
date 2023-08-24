@@ -2,6 +2,10 @@ function openInfo(evt, tabName) {
   //declaring variables
   var i, tabcontent, tablinks;
 
+  function showAlert() {
+    var myAlert = "We will contact you soon!";
+    alert(myAlert);
+  }
   //get elements with tabcontent class and hide
 
   tabcontent = document.getElementsByClassName("tabcontent");

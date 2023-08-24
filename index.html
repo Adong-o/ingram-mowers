@@ -53,6 +53,9 @@ style="object-fit: cover;">
     <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/photo8.jpg?raw=true"></div>
     <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/photo9.jpg?raw=true"></div>
     <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/Photo5.jpg?raw=true"></div>
+    <div><img width="350px" height="350px" src="https://github.com/Daucro/ingram-mowers/blob/main/photo10.jpg?raw=true"></div>
+    <div><img width="350px" height="350px" src="https://github.com/Daucro/ingram-mowers/blob/main/photo11.jpg?raw=true"></div>
+    <div><img width="350px" height="350px" src="https://github.com/Daucro/ingram-mowers/blob/main/photo12.jpg?raw=true"></div>
 </div>
   </div>
   <div id="About-Us" class="tabcontent">
@@ -128,12 +131,20 @@ style="object-fit: cover;">
   <fieldset class="fieldset"> <legend>Add yourself to the callback list </legend>
        <!-- Section for submitting contact information for call back-->
        <section>
-        <form action="We will contact you soon!">
+        <form action=index.html>
             <label for="fname">First Name:</label> 
             <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>                                
             <label for="phonenumber">Phone Number:</label>
             <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter Phone Number"><br><br>
-            <input type="submit" value="Submit">
+            <label for="service">Select a service :</label>
+            <select id="service" name="service" size="1">
+                <option value="Mowing">Mowing</option>
+                <option value="Flower-Beds">Flower Beds</option>
+                <option value="Weeding">Weeding</option>
+                <option value="Grass-Seeding">Grass Seeding</option>
+                <option value="Compost">Compost</option>
+                <option value="Other">Other</option>
+             <input type="submit" value="Submit" onclick="return confirm('We will contact you soon!')"/> 
             </fieldset>
         </form>
        </section>
@@ -142,3 +153,5 @@ style="object-fit: cover;">
     </main>
     <script src="index.js"></script>
 </body>
+</html>
+
