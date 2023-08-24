@@ -2,7 +2,7 @@ body {
   background-color: greenyellow;
 }
 
-header {
+.header {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,12 +29,19 @@ header {
   transition: 0.3s;
 }
 
+td {
+  text-align: center;
+}
+tr {
+  text-align: center;
+}
+th {
+  text-align: center;
+}
 /* change buttons on hover*/
-
 .tab button:hover {
   background-color: #ddd;
 }
-
 .tab button.active {
   background-color: red;
   color: red;
@@ -50,9 +57,21 @@ header {
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: yellow;
+  row-gap: 15px;
 }
 .div {
   word-wrap: break-word;
+}
+
+/* center class for centering text*/
+.center {
+  text-align: center;
+}
+
+.fieldset {
+  background-color: yellow;
+  display: inline-block;
 }
