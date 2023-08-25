@@ -1,28 +1,31 @@
 body {
   background-color: greenyellow;
 }
-
 .header {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+/*setting the mower man on top of tab bar*/
 .topleft {
   position: absolute;
   width: 200px;
   height: 50px;
-  top: 390px;
+  top: 388px;
   left: 1px;
   margin: 0 auto;
   text-align: left;
+  border: none;
 }
+/*setting the mower man on top of tab bar*/
 .topright {
   position: absolute;
   width: 200px;
   height: 50px;
-  top: 390px;
+  top: 388px;
   right: 1px;
   margin: 0 auto;
   text-align: left;
+  border: none;
 }
 
 .banner-icon {
@@ -38,11 +41,13 @@ body {
   background-color: orange;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* style tab buttons*/
 .tab button {
   background-color: inherit;
   float: left;
-  border: none;
+  border: 1px solid black;
+  border-radius: 10px;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -51,28 +56,35 @@ body {
   width: 25%;
   transition: 0.3s;
 }
-
 td {
   text-align: center;
+  border: 1px solid black;
 }
 tr {
   text-align: center;
+  border: 1px solid black;
 }
 th {
   text-align: center;
+  border: 1px solid black;
 }
 /* change buttons on hover*/
 .tab button:hover {
   background-color: yellow;
 }
-
+.tab button:active {
+  background-color: red !important;
+}
+img {
+  border: 2px solid black;
+  border-radius: 10px;
+}
 .tab content {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
 }
-
 /* flex box styling*/
 .flex-container {
   display: flex;
@@ -83,17 +95,40 @@ th {
   row-gap: 15px;
 }
 
+.flex-container img {
+  width: 350px;
+  height: 350px;
+}
 .div {
   word-wrap: break-word;
 }
-
 /* center class for centering text*/
 .center {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.centerfooter {
+  text-align: center;
+}
+.tablefooter {
+  margin-left: auto;
+  margin-right: auto;
+}
 .fieldset {
   background-color: yellow;
   display: inline-block;
   border-radius: 10px;
+  border: 2px solid black;
+}
+#contact-us {
+  list-style-type: none;
+  text-align: center;
+  margin-left: 0%;
+}
+#contact-footer {
+  background-color: yellow;
+}
+.customborder {
+  border: 1px solid black;
 }

@@ -9,12 +9,12 @@
 
 <head> <title> Ingram Mowing Inc</title>
     <div>
-    <img class="topleft"src="https://github.com/Daucro/ingram-mowers/blob/main/MowingHeaderReversal.png?raw=true">
+    <img class="topleft" src="https://github.com/Daucro/ingram-mowers/blob/main/MowingHeaderReversal.png?raw=true">
     <header class="header"> We are <i><strong>Ingram Mowers and Landscaping</strong></i></header>
     <img class="topright" src="https://github.com/Daucro/ingram-mowers/blob/main/MowingHeader.png?raw=true">
     </div>
 </head>
-<img width="100%" height="400"src="https://github.com/Daucro/ingram-mowers/blob/main/Headerphotos.jpg?raw=true" 
+<img width="100%" height="400"src="https://github.com/Daucro/ingram-mowers/blob/main/Header3jpg.jpg?raw=true" 
 style="object-fit: cover;">
 
 <!-- Tabs for navigating website-->
@@ -45,17 +45,17 @@ style="object-fit: cover;">
        <div id="Work-Gallery" class="tabcontent">
  <h2 class="center">See the Ingram Lawn difference</h2>
  <div class="flex-container">
-    <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/main/image1.jpg?raw=true"></div>
-    <div><img width="350px" height="350px" src="https://github.com/Daucro/ingram-mowers/blob/main/image3.jpg?raw=true"></div>
-    <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/main/image0.jpg?raw=true"></div>
-    <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/photo6.jpg?raw=true"></div>
-    <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/photo7.jpg?raw=true"></div>
-    <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/photo8.jpg?raw=true"></div>
-    <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/photo9.jpg?raw=true"></div>
-    <div><img width="350px" height="350px"  src="https://github.com/Daucro/ingram-mowers/blob/dev/Photo5.jpg?raw=true"></div>
-    <div><img width="350px" height="350px" src="https://github.com/Daucro/ingram-mowers/blob/main/photo10.jpg?raw=true"></div>
-    <div><img width="350px" height="350px" src="https://github.com/Daucro/ingram-mowers/blob/main/photo11.jpg?raw=true"></div>
-    <div><img width="350px" height="350px" src="https://github.com/Daucro/ingram-mowers/blob/main/photo12.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/main/image1.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/main/image3.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/main/image0.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/dev/photo6.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/dev/photo7.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/dev/photo8.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/dev/photo9.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/dev/Photo5.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/main/photo10.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/main/photo11.jpg?raw=true"></div>
+    <div><img src="https://github.com/Daucro/ingram-mowers/blob/main/photo12.jpg?raw=true"></div>
 </div>
   </div>
   <div id="About-Us" class="tabcontent">
@@ -92,7 +92,6 @@ style="object-fit: cover;">
             <td> 2  ACRE CUT</td>
             <td> $200</td>
         </tr>
-      
         </table class="table">
           </fieldset>
           <fieldset class="fieldset"><legend>General Labor</legend>
@@ -130,14 +129,14 @@ style="object-fit: cover;">
   </div>
   <fieldset class="fieldset"> <legend>Add yourself to the callback list </legend>
        <!-- Section for submitting contact information for call back-->
-       <section>
+       <section class="submit-button">
         <form action=index.html>
             <label for="fname">First Name:</label> 
-            <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>                                
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>                                
             <label for="phonenumber">Phone Number:</label>
-            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter Phone Number"><br><br>
+            <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter Phone Number" required><br><br>
             <label for="service">Select a service :</label>
-            <select id="service" name="service" size="1">
+            <select id="service" name="service" size="1" required>
                 <option value="Mowing">Mowing</option>
                 <option value="Flower-Beds">Flower Beds</option>
                 <option value="Weeding">Weeding</option>
@@ -148,8 +147,26 @@ style="object-fit: cover;">
             </fieldset>
         </form>
        </section>
-       
-       
+       <footer>
+        <div id="contact-footer">  
+            <h3 class="centerfooter"> Contact Us</h3>
+            <ul id="contact-us" class="centerfooter">
+                <li><strong>Phone:</strong>1-800-744-<strong>LAWN</strong></li>
+                <li><strong>Office:</strong>725 E Industrial Blvd <br>
+                Stephenville, TX 76401</li>
+                <li><strong>Email:</strong><a href="mailto:Ingram.Mowers@business.mail">Ingram.Mowers@business.mail</a></li>
+            </ul>
+            <table class="tablefooter">
+               <tr>
+                <td><strong>Mon-Fri</strong></td>
+                <td><strong>Sat-Sun</strong></td>
+               </tr>
+               <tr><td>8:00 am - 6:30 pm</td>
+                <td>9:30 am - 5:00pm</td>
+            </tr>
+            </table>
+        </div>
+       </footer>
     </main>
     <script src="index.js"></script>
 </body>
