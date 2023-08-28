@@ -39,7 +39,6 @@ body {
   overflow: hidden;
   border: 1px solid black;
   background-color: orange;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* style tab buttons*/
@@ -150,66 +149,37 @@ img {
   margin-right: auto;
   margin-left: 10px;
 }
-.aboutang {
-  float: left;
-  height: 205px;
-  width: 275px;
-}
-.bioleft {
-  width: 520px;
-  height: 205px;
-  background-color: yellow;
-  border: 2px solid black;
-  margin-left: 16.5%;
-  margin-right: auto;
-  font-family: "Times New Roman", Times, serif;
-  font-size: large;
-  word-wrap: break-word;
-}
-.bioright {
-  width: 520px;
-  height: 205px;
-  background-color: yellow;
-  border: 2px solid black;
-  margin-right: 16.5%;
-  margin-left: auto;
-  font-family: "Times New Roman", Times, serif;
-  font-size: large;
-  word-wrap: break-word;
-}
-.aboutmatt {
-  float: right;
-  height: 205px;
-  width: 275px;
-}
 .workers {
   float: left;
   height: 205px;
   width: 275px;
 }
-.bioleftwork {
-  width: 520px;
-  height: 205px;
-  background-color: yellow;
-  border: 2px solid black;
-  margin-left: 16.5%;
-  margin-right: auto;
-  font-family: "Times New Roman", Times, serif;
-  font-size: large;
-  word-wrap: break-word;
-}
-.invisiblefield1 {
-  border: dotted 2px black;
-  background-color: orange;
-}
-.invisiblefield2 {
-  border: dotted 2px black;
-  background-color: greenyellow;
-}
-.invisiblefield3 {
-  border: dotted 2px black;
-  background-color: orange;
-}
+
 .submit-button {
   text-align: center;
+}
+.angela {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.angelatext {
+  font-size: 18px;
+}
+.angelaimage {
+  max-width: 100%;
+  max-height: 100%;
+}
+.matt {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  border: 1px solid black;
+}
+.matttext {
+  font-size: 18px;
+}
+.mattimage {
+  height: 100%;
+  width: 100%;
 }

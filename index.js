@@ -1,19 +1,19 @@
 function showAlert() {
-  var myAlert = "We will contact you soon!";
+  const myAlert = "We will contact you soon!";
   alert(myAlert);
 }
 //get elements with tabcontent class and hide
 function openInfo(evt, tabName) {
   //declaring variables
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
+
+  const tabcontent = document.getElementsByClassName("tabcontent");
+  for (let i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
   //get elements with class tablinks and remove the active class
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
+  const tablinks = document.getElementsByClassName("tablinks");
+  for (let i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace("active", "");
   }
 
