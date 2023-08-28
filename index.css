@@ -1,5 +1,5 @@
 body {
-  background-color: greenyellow;
+  background-color: #7092a0;
 }
 .header {
   font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ body {
 .tab {
   overflow: hidden;
   border: 1px solid black;
-  background-color: orange;
+  background-color: #c7bea0;
 }
 
 /* style tab buttons*/
@@ -69,10 +69,10 @@ th {
 }
 /* change buttons on hover*/
 .tab button:hover {
-  background-color: yellow;
+  background-color: #546220;
 }
 .tab button:active {
-  background-color: red !important;
+  background-color: #a0bf75 !important;
 }
 img {
   border: 2px solid black;
@@ -90,7 +90,7 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: yellow;
+  background-color: #c7bea0;
   row-gap: 15px;
   border: 2px solid black;
   padding: 6px;
@@ -108,7 +108,7 @@ img {
 }
 
 .fieldset {
-  background-color: yellow;
+  background-color: #c7bea0;
   display: inline-block;
   border-radius: 10px;
   border: 2px solid black;
@@ -117,12 +117,12 @@ img {
 .footer {
   margin-top: 25px;
   padding: 50px 25%;
-  background-color: yellow;
+  background-color: #c7bea0;
   display: flex;
   border-radius: 10px;
   border: solid black;
   outline-style: groove;
-  outline-color: orange;
+  outline-color: #546220;
   text-align: center;
 }
 .footerIcon {
@@ -149,24 +149,20 @@ img {
   margin-right: auto;
   margin-left: 10px;
 }
-.workers {
-  float: left;
-  height: 205px;
-  width: 275px;
-}
-
 .submit-button {
   text-align: center;
 }
 .angela {
   display: flex;
   align-items: center;
-  border: 1px solid black;
+  border: 2px dotted #7092a0;
   justify-content: center;
+  background-color: #c7bea0;
+  border-radius: 10px;
 }
 .angelatext {
   font-size: 18px;
-  padding: 10px;
+  padding: 5px;
 }
 .angelaimage {
   max-width: 100%;
@@ -174,26 +170,29 @@ img {
 }
 .matt {
   display: flex;
-  border: 1px solid black;
+  border: 2px dotted #c7bea0;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
   flex-direction: row-reverse;
+  background-color: #7092a0;
+  border-radius: 10px;
 }
 .matttext {
   font-size: 18px;
-  padding: 10px;
+  padding: 5px;
 }
 .mattimage {
   height: 100%;
   width: 100%;
 }
 
-.workers {
+.worker {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  flex-direction: row;
+  justify-content: left;
+  border: 2px dotted #7092a0;
+  background: #c7bea0;
+  border-radius: 10px;
 }
 .workimage {
   width: 100%;
@@ -201,5 +200,14 @@ img {
 }
 .worktext {
   font-size: 18px;
+  padding: 5px;
+}
+.contactinfo {
+  display: flex;
+  border: 1px solid black;
+  align-items: baseline;
+  background-color: #c7bea0;
+  justify-content: space-around;
+  border-radius: 10px;
   padding: 10px;
 }
