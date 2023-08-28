@@ -93,14 +93,13 @@ img {
   flex-wrap: wrap;
   background-color: yellow;
   row-gap: 15px;
+  border: 2px solid black;
+  padding: 6px;
 }
 
 .flex-container img {
   width: 350px;
   height: 350px;
-}
-.div {
-  word-wrap: break-word;
 }
 /* center class for centering text*/
 .center {
@@ -117,7 +116,7 @@ img {
 }
 
 .footer {
-  margin-top: 100px;
+  margin-top: 25px;
   padding: 50px 25%;
   background-color: yellow;
   display: flex;
@@ -150,4 +149,67 @@ img {
   margin-bottom: 10px;
   margin-right: auto;
   margin-left: 10px;
+}
+.aboutang {
+  float: left;
+  height: 205px;
+  width: 275px;
+}
+.bioleft {
+  width: 520px;
+  height: 205px;
+  background-color: yellow;
+  border: 2px solid black;
+  margin-left: 16.5%;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  word-wrap: break-word;
+}
+.bioright {
+  width: 520px;
+  height: 205px;
+  background-color: yellow;
+  border: 2px solid black;
+  margin-right: 16.5%;
+  margin-left: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  word-wrap: break-word;
+}
+.aboutmatt {
+  float: right;
+  height: 205px;
+  width: 275px;
+}
+.workers {
+  float: left;
+  height: 205px;
+  width: 275px;
+}
+.bioleftwork {
+  width: 520px;
+  height: 205px;
+  background-color: yellow;
+  border: 2px solid black;
+  margin-left: 16.5%;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  word-wrap: break-word;
+}
+.invisiblefield1 {
+  border: dotted 2px black;
+  background-color: orange;
+}
+.invisiblefield2 {
+  border: dotted 2px black;
+  background-color: greenyellow;
+}
+.invisiblefield3 {
+  border: dotted 2px black;
+  background-color: orange;
+}
+.submit-button {
+  text-align: center;
 }
