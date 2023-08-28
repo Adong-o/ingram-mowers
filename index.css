@@ -6,28 +6,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-/*setting the mower man on top of tab bar*/
-.topleft {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  top: 388px;
-  left: 1px;
-  margin: 0 auto;
-  text-align: left;
-  border: none;
-}
-/*setting the mower man on top of tab bar*/
-.topright {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  top: 388px;
-  right: 1px;
-  margin: 0 auto;
-  text-align: left;
-  border: none;
-}
 
 .banner-icon {
   align-self: start;
@@ -211,4 +189,5 @@ img {
   justify-content: space-around;
   border-radius: 10px;
   padding: 10px;
+  margin-top: 10px;
 }
