@@ -127,6 +127,7 @@ img {
 
 #contact-us {
   list-style-type: none;
+  text-align: center;
 }
 .copyright {
   margin-bottom: 10px;
@@ -222,6 +223,7 @@ img {
   border: solid white 2px;
   padding: 10px;
   margin: 2%;
+  border-radius: 10px;
 }
 .home1header {
   font-size: 30px;
@@ -274,6 +276,7 @@ img {
   width: 50%;
   border: solid white 2px;
   justify-content: space-around;
+  border-radius: 10px;
 }
 
 .home2header {
@@ -290,4 +293,9 @@ img {
   border: solid white 2px;
   padding: 10px;
   margin: 2%;
+  border-radius: 10px;
+}
+.icon {
+  height: 15px;
+  width: 15px;
 }
