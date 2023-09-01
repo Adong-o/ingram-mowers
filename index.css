@@ -34,9 +34,12 @@ body {
   cursor: pointer;
   display: inline-block;
   padding: 0;
-  margin: 0;
-  width: 25%;
+  margin: 2.5px;
+  width: calc(25% - 10px);
   transition: 0.3s;
+  height: 40px;
+  font-size: 24px;
+  color: white;
 }
 td {
   text-align: center;
@@ -97,7 +100,6 @@ img {
   border-radius: 10px;
   border: 2px solid black;
 }
-
 .footer {
   margin-top: 25px;
   padding: 50px 25%;
@@ -109,31 +111,11 @@ img {
   outline-color: #546220;
   text-align: center;
 }
-.footerIcon {
-  height: 25px;
-  width: 25px;
-  display: inline-block;
-  margin-left: 5px;
-  margin-bottom: 5px;
-}
-.right-side {
-  margin-left: auto;
-  margin-right: 15px;
-}
-.left-side {
-  margin-right: auto;
-  margin-left: 15px;
-}
-
 #contact-us {
   list-style-type: none;
   text-align: center;
 }
-.copyright {
-  margin-bottom: 10px;
-  margin-right: auto;
-  margin-left: 10px;
-}
+
 .submit-button {
   text-align: center;
 }
@@ -197,6 +179,10 @@ img {
   padding: 10px;
   margin-top: 10px;
 }
+.information {
+  width: 33%;
+  display: flex;
+}
 .banner {
   display: flex;
   border: 2px solid black;
@@ -230,7 +216,6 @@ img {
   color: white;
   text-align: center;
 }
-
 /* Home 3 and 2 were swapped for aesthetics, changed positioning in css to better match html*/
 .home3 {
   display: flex;
@@ -244,7 +229,6 @@ img {
   background-color: transparent;
   border: 2px solid black;
 }
-
 .home2 {
   display: flex;
   flex-direction: row;
@@ -256,9 +240,7 @@ img {
   background: #7092a0;
   color: white;
   border: 2px solid black;
-  padding: 5px;
 }
-
 #background1 {
   background-image: url("https://github.com/Daucro/ingram-mowers/raw/Photos/Asset/home3.webp");
   background-attachment: fixed;
@@ -278,7 +260,6 @@ img {
   justify-content: space-around;
   border-radius: 10px;
 }
-
 .home2header {
   display: flex;
   font-size: 30px;
@@ -298,4 +279,15 @@ img {
 .icon {
   height: 15px;
   width: 15px;
+  color: red;
+}
+.hours {
+  flex-direction: column;
+  width: 33%;
+  display: flex;
+}
+.fieldsetFooter {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
 }
