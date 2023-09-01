@@ -122,10 +122,8 @@ img {
 .angela {
   display: flex;
   align-items: center;
-  border: 2px dotted #c7bea0;
   justify-content: center;
   background-color: #7092a0;
-  border-radius: 10px;
 }
 .angelatext {
   font-size: 18px;
@@ -137,7 +135,6 @@ img {
 }
 .matt {
   display: flex;
-  border: 2px dotted #7092a0;
   align-items: center;
   justify-content: right;
   flex-direction: row-reverse;
@@ -157,7 +154,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: left;
-  border: 2px dotted #c7bea0;
   background: #7092a0;
   border-radius: 10px;
 }
@@ -199,7 +195,6 @@ img {
   padding: 5px;
   background: #7092a0;
   color: white;
-  border: 2px solid black;
   padding: 5px;
 }
 .home1content {
@@ -242,7 +237,7 @@ img {
   border: 2px solid black;
 }
 #background1 {
-  background-image: url("https://github.com/Daucro/ingram-mowers/raw/Photos/Asset/home3.webp");
+  background-image: url("https://github.com/Daucro/ingram-mowers/raw/main/Asset/Untitled%20design.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -290,4 +285,74 @@ img {
   width: 33%;
   display: flex;
   flex-direction: column;
+  border: solid black 2px;
+  border-radius: 10px;
+}
+
+.review-container {
+  position: relative;
+  background-color: #546220;
+}
+.reviews {
+  display: none;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+}
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 5px 0 0 5px;
+}
+.prev:hover,
+.next:hover {
+  background-color: black;
+  color: white;
+  border: 1px;
+  border-radius: 10px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6 ease;
+}
+
+.active,
+.dot:hover {
+  background: color black;
+}
+
+.dot:hover {
+  background-color: black;
+}
+
+q {
+  font-style: italic;
+}
+.author {
+  color: aqua;
+}
+.reviewIndicator {
+  text-align: center;
+  padding: 20px;
+  background: #7092a0;
 }
