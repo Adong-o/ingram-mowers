@@ -21,7 +21,6 @@ function openInfo(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += "active";
 }
-
 //will open home tab by default
 document.getElementById("defaultOpen").click();
 var slideIndex = 1;

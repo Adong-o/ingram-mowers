@@ -20,13 +20,13 @@ body {
 
 .tab {
   overflow: hidden;
-  border: 1px solid black;
-  background-color: #c7bea0;
+  background-color: #546220;
+  border: solid black 2px;
 }
 
 /* style tab buttons*/
 .tab button {
-  background-color: inherit;
+  background-color: #7092a0;
   float: left;
   border: 1px solid black;
   border-radius: 10px;
@@ -40,6 +40,8 @@ body {
   height: 40px;
   font-size: 24px;
   color: white;
+  border-radius: 10px;
+  border: solid black 2px;
 }
 td {
   text-align: center;
@@ -57,7 +59,7 @@ th {
 .tab button:hover {
   background-color: #546220;
 }
-.tab button:active {
+.tab button.active {
   background-color: #a0bf75 !important;
 }
 img {
@@ -181,9 +183,9 @@ img {
 }
 .banner {
   display: flex;
-  border: 2px solid black;
-  border-radius: 10px;
   width: 100%;
+  border: solid black 2px;
+  border-radius: 0px;
 }
 .home1 {
   display: flex;
@@ -272,9 +274,8 @@ img {
   border-radius: 10px;
 }
 .icon {
-  height: 15px;
-  width: 15px;
-  color: red;
+  height: 12px;
+  width: 12px;
 }
 .hours {
   flex-direction: column;
@@ -292,13 +293,14 @@ img {
 .review-container {
   position: relative;
   background-color: #546220;
+  border: solid black 2px;
 }
 .reviews {
   display: none;
   padding: 15px;
   text-align: center;
-  border-radius: 10px;
-  border: 1px solid black;
+  color: white;
+  font-size: 20px;
 }
 .prev,
 .next {
@@ -320,7 +322,7 @@ img {
 }
 .prev:hover,
 .next:hover {
-  background-color: black;
+  background-color: #7092a0;
   color: white;
   border: 1px;
   border-radius: 10px;
@@ -335,21 +337,18 @@ img {
   display: inline-block;
   transition: background-color 0.6 ease;
 }
-
 .active,
-.dot:hover {
-  background: color black;
-}
-
 .dot:hover {
   background-color: black;
 }
-
+.dot:hover {
+  background-color: black;
+}
 q {
   font-style: italic;
 }
 .author {
-  color: aqua;
+  color: black;
 }
 .reviewIndicator {
   text-align: center;
