@@ -25,12 +25,10 @@ body {
 /* style tab buttons*/
 .tab button {
   background-color: #4cdeac;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
-  outline: none;
   cursor: pointer;
   display: inline-block;
-  padding: 0;
   margin: 2px;
   width: calc(25% - 10px);
   transition: 0.3s;
@@ -462,6 +460,7 @@ q {
   list-style-type: none;
   background-color: #4cdeac;
   border-collapse: collapse;
+  align-items: center;
 }
 #standard {
   margin: 2.5px;
