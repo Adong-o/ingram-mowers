@@ -25,12 +25,10 @@ body {
 /* style tab buttons*/
 .tab button {
   background-color: #4cdeac;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
-  outline: none;
   cursor: pointer;
   display: inline-block;
-  padding: 0;
   margin: 2px;
   width: calc(25% - 10px);
   transition: 0.3s;
@@ -50,7 +48,7 @@ td {
 }
 .tdfooter {
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: #aab3af;
 }
 .cost {
@@ -234,6 +232,10 @@ img {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   width: auto;
+}
+
+#contact-us li {
+  border: none;
 }
 .information {
   width: auto;
@@ -457,11 +459,10 @@ q {
   justify-content: space-evenly;
   list-style-type: none;
   background-color: #4cdeac;
+  border-collapse: collapse;
+  align-items: center;
 }
 #standard {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   margin: 2.5px;
   padding: 5px;
   text-align: center;
@@ -470,9 +471,6 @@ q {
   font-size: 20px;
 }
 #premium {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   margin: 2.5px;
   padding: 2.5px;
   border: black solid 2px;
@@ -481,9 +479,6 @@ q {
   font-size: 20px;
 }
 #LOM {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   margin: 2.5px;
   padding: 2.5px;
   border: black solid 2px;
@@ -500,7 +495,6 @@ li {
 }
 .tiers {
   border: solid black;
-  height: 100%;
   background-color: #3c8ec3;
   border-radius: 8px;
   margin: 5px;
@@ -564,4 +558,11 @@ li:last-child {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+.price-table {
+  border-collapse: collapse;
+  padding: 5px;
+  margin: 5px;
+  border: solid black 2px;
+  border-radius: 10px;
 }
