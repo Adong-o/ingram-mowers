@@ -40,6 +40,59 @@ body {
   border-radius: 10px;
   border: solid black 2px;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #4cdeac;
+  position: relative;
+}
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+/*@media screen and (max-width: 1000px) {
+  .tablinks {
+    display: flex;
+    position: relative;
+    top: 10px;
+    height: 25%;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background-color: #4cdeac;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .tab {
+    display: none;
+  }
+}
+@media screen and (max-width: 601px) {
+  .topnav a:not(first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav {
+    display: none;
+  }
+  #myLinks {
+    display: none;
+  }
+}
+.topnav a.icon {
+  background-image: url("https://github.com/Daucro/ingram-mowers/blob/Photos/Asset/icons8-hamburger-menu-50.png?raw=true");
+  display: flex;
+}*/
 td {
   text-align: center;
   border: 1px solid black;
@@ -135,6 +188,7 @@ img {
   color: black;
   padding-left: 5%;
   padding-right: auto;
+  text-align: center;
 }
 .angelaimage {
   max-width: 100%;
@@ -145,6 +199,7 @@ img {
   align-items: center;
   flex-direction: row;
   background-color: white;
+  justify-content: flex-end;
 }
 .matttext {
   font-size: 18px;
@@ -154,13 +209,13 @@ img {
   padding-bottom: 4em;
   background-color: #4cdeac;
   color: black;
-  padding-left: 5%;
-  padding-right: auto;
+  padding-left: auto;
+  padding-right: 5%;
+  text-align: center;
 }
 .mattimage {
   height: 100%;
   width: 100%;
-  margin: 0%;
 }
 
 .worker {
@@ -184,6 +239,7 @@ img {
   background-color: white;
   box-shadow: 3px 3px;
   color: black;
+  text-align: center;
 }
 .vendor {
   display: flex;
@@ -197,15 +253,16 @@ img {
   border-radius: 10px;
   padding-top: 4em;
   padding-bottom: 4em;
-  padding-left: 5%;
-  padding-right: auto;
+  padding-left: auto;
+  padding-right: 5%;
   background-color: #4cdeac;
   color: black;
+  text-align: center;
 }
 .vendorimage {
   height: 100%;
   width: 100%;
-  margin: 0%;
+  margin: auto;
 }
 .contactinfo {
   display: flex;
@@ -499,6 +556,7 @@ li {
   border-radius: 8px;
   margin: 5px;
   padding: 2.5px;
+  width: 100%;
 }
 li:last-child {
   background-color: #aab3af;
