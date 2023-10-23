@@ -19,7 +19,7 @@ function openInfo(evt, tabName) {
 
   //show current tab and add active class to it
   document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += "active";
+  evt.currentTarget.className += " active";
 }
 //will open home tab by default
 document.getElementById("defaultOpen").click();
@@ -52,4 +52,12 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
+}
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
